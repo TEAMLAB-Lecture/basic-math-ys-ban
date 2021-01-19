@@ -52,13 +52,13 @@ def get_smallest(number_list):
             11
     """
     smallest_number = None
-     for i in range(len(number_list)):
+    for i in range(len(number_list)):
         if smallest_number is None:
             smallest_number = number_list[i]
         else :
             smallest_number = number_list[i] if smallest_number>number_list[i] else smallest_number
 
-   return smallest_number
+    return smallest_number
 
 
 def get_mean(number_list):
